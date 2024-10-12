@@ -5,18 +5,6 @@ import Image from "next/image";
 import { LuRocket } from "react-icons/lu";
 import { TbSettingsShare } from "react-icons/tb";
 
-let skillPro = [
-  {
-    id: 1,
-    title: "Web  Development",
-    count: 75,
-  },
-  {
-    id: 2,
-    title: "Web  Design",
-    count: 85,
-  },
-];
 
 const About = () => {
   return (

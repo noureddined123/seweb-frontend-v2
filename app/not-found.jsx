@@ -37,6 +37,6 @@ const NotFoundPage = () => {
 export default NotFoundPage;
 
 export const metadata = {
-  title: "Not Found - Meetup",
+  title: "Not Found - Seweb",
   description: "404 page",
 };

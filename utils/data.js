@@ -2,27 +2,6 @@ import { FaChartLine, FaDatabase, FaMobile } from "react-icons/fa";
 import { Fa1, Fa2, Fa3, Fa4 } from "react-icons/fa6";
 import { MdDraw } from "react-icons/md";
 
-// About data
-export const aboutData = [
-  {
-    id: 1,
-    title: "IT Management",
-    image: "/home1/about/about-1.png",
-    icon: "/home1/about/about-icon-1.png",
-  },
-  {
-    id: 2,
-    title: "IT Design",
-    image: "/home1/about/about-2.png",
-    icon: "/home1/about/about-icon-2.png",
-  },
-  {
-    id: 3,
-    title: "Security Systems",
-    image: "/home1/about/about-3.png",
-    icon: "/home1/about/about-icon-3.png",
-  },
-];
 
 // projects data
 export const projects = [
@@ -49,58 +28,6 @@ export const projects = [
     title: "Dvagi",
     image: "/customer-logo/dvagi.png",
     category: "Webdesign",
-  },
-];
-
-// members
-export const teamMembers = [
-  {
-    id: 1,
-    name: "Arnold Haron",
-    position: "Designer",
-    image: "/home1/team/team1.png",
-    socialLinks: {
-      facebook: "https://www.facebook.com/",
-      twitter: "https://www.twitter.com/",
-      instagram: "https://www.instagram.com/",
-      pinterest: "https://www.pinterest.com/",
-    },
-  },
-  {
-    id: 2,
-    name: "Jane Smith",
-    position: "Developer",
-    image: "/home1/team/team2.png",
-    socialLinks: {
-      facebook: "https://www.facebook.com/song2",
-      twitter: "https://www.twitter.com/",
-      instagram: "https://www.instagram.com/",
-      pinterest: "https://www.pinterest.com/",
-    },
-  },
-  {
-    id: 3,
-    name: "Laila Naim",
-    position: "Marketing",
-    image: "/home1/team/team3.png",
-    socialLinks: {
-      facebook: "https://www.facebook.com/",
-      twitter: "https://www.twitter.com/",
-      instagram: "https://www.instagram.com/",
-      pinterest: "https://www.pinterest.com/",
-    },
-  },
-  {
-    id: 4,
-    name: "Robert Brown",
-    position: "CEO & Founder",
-    image: "/home1/team/team4.png",
-    socialLinks: {
-      facebook: "https://www.facebook.com/",
-      twitter: "https://www.twitter.com/",
-      instagram: "https://www.instagram.com/",
-      pinterest: "https://www.pinterest.com/",
-    },
   },
 ];
 
@@ -185,43 +112,6 @@ export const blogsData = [
 ];
 
 // hero
-
-export const herosData = [
-  {
-    id: 1,
-    title: "We Will be Your Best Partner",
-    cover: "/home2/hero/hero-bg-1.jpg",
-  },
-  {
-    id: 2,
-    title: "Transforming Ideas into Reality",
-    cover: "/home2/hero/hero-bg-2.jpg",
-  },
-  {
-    id: 3,
-    title: "Your Vision, Our Creation",
-    cover: "home2/hero/hero-bg-3.webp",
-  },
-];
-
-export const herosDataHome3 = [
-  {
-    id: 1,
-    title: "Creating a Better Tech Solution",
-    cover: "/home3/hero/hero-bg-1.png",
-  },
-  {
-    id: 2,
-    title: "Transforming Ideas into Reality",
-    cover: "/home2/hero/hero-bg-2.jpg",
-  },
-  {
-    id: 3,
-    title: "Your Vision, Our Creation",
-    cover: "home2/hero/hero-bg-3.webp",
-  },
-];
-
 export const herosDataHome4 = [
   {
     id: 1,
@@ -230,52 +120,7 @@ export const herosDataHome4 = [
   }
 ];
 
-// projects data
 
-export const projectsData = [
-  {
-    id: 1,
-    title: "Digital Solution",
-    category: "Idea",
-    image: "/home2/projects/project1.webp",
-  },
-  {
-    id: 2,
-    title: "E-commerce Platform",
-    category: "Development",
-    image: "/home2/projects/project2.webp",
-  },
-  {
-    id: 3,
-    title: "Marketing Strategy",
-    category: "Planning",
-    image: "/home2/projects/project3.webp",
-  },
-  {
-    id: 4,
-    title: "Mobile App",
-    category: "Design",
-    image: "/home2/projects/project4.webp",
-  },
-  {
-    id: 5,
-    title: "E-commerce Platform",
-    category: "Development",
-    image: "/home2/projects/project2.webp",
-  },
-  {
-    id: 6,
-    title: "Marketing Strategy",
-    category: "Planning",
-    image: "/home2/projects/project3.webp",
-  },
-  {
-    id: 7,
-    title: "Mobile App",
-    category: "Design",
-    image: "/home2/projects/project4.webp",
-  },
-];
 
 // services
 export const services = [
@@ -376,151 +221,5 @@ export const faq = [
     id: 6,
     question: "Kan ik bij technische problemen bij seweb terecht?",
     answer: "Als u al een seweb klant bent dan is support in uw abonnement inbegrepen. Voor niet klanten kunt u het best contact met ons opnemen naar de mogelijkheden.",
-  },
-];
-
-
-//blog
-export const latestBlogPosts = [
-  {
-    id: 1,
-    title: "10 Essential Development Tools Every Programmer Should Know",
-    publishAt: "March 23, 2023",
-    category: "Development",
-    image: "/home2/blog/p1.jpg",
-  },
-  {
-    id: 2,
-    title: "Introduction to Web Development: A Beginner's Guide",
-    publishAt: "March 23, 2023",
-    category: "Development",
-    image: "/home2/blog/p2.jpg",
-  },
-  {
-    id: 3,
-    title: "Top 5 JavaScript Frameworks for Modern Web Development",
-    publishAt: "March 23, 2023",
-    category: "Development",
-    image: "/home2/blog/p3.jpg",
-  },
-];
-
-// industries data
-export const industries = [
-  {
-    id: 1,
-    title: "Gaming and Entertainment",
-    image: "/home3/industry/industry2.png",
-    info: "This industry involves activities related to the creation, marketing, and consumption of video games, movies, music, and other entertainment forms.",
-    logo: "G",
-  },
-  {
-    id: 2,
-    title: "Business and Finance",
-    image: "/home3/industry/industry1.png",
-    info: "This industry encompasses all business activities and financial services, including banking, investment, accounting, and corporate management.",
-    logo: "B",
-  },
-  {
-    id: 3,
-    title: "Information Technology",
-    image: "/home3/industry/industry3.png",
-    info: "This industry covers the development, maintenance, and use of computer systems, software, and networks for the processing and distribution of data.",
-    logo: "T",
-  },
-];
-
-
-export const products = [
-  {
-    id: 1,
-    title: "Laptop a4 Series",
-    price: 340,
-    sale_price: 220,
-    is_sale: false,
-    ratting: 5,
-    rate_by_users: 1854,
-    image: "/shop/laptop.png",
-  },
-  {
-    id: 2,
-    title: "Gooseneck Kettle",
-    price: 60,
-    sale_price: 40,
-    is_sale: false,
-    ratting: 5,
-    rate_by_users: 1854,
-    image: "/shop/kettle.png",
-  },
-  {
-    id: 3,
-    title: "Apple VR Pro",
-    price: 860,
-    sale_price: 840,
-    is_sale: true,
-    ratting: 5,
-    rate_by_users: 1854,
-    image: "/shop/vr-headset.png",
-  },
-  {
-    id: 4,
-    title: "Yellow Bag",
-    price: 90,
-    sale_price: 90,
-    is_sale: false,
-    ratting: 5,
-    rate_by_users: 1854,
-    image: "/shop/backpack.png",
-  },
-  {
-    id: 5,
-    title: "Vacuum Cleaner",
-    price: 320,
-    sale_price: 220,
-    is_sale: true,
-    ratting: 5,
-    rate_by_users: 1854,
-    image: "/shop/vacuum.png",
-  },
-  {
-    id: 6,
-    title: "Sony Headphone",
-    price: 170,
-    sale_price: 160,
-    is_sale: false,
-    ratting: 5,
-    rate_by_users: 1854,
-    image: "/shop/headphone.png",
-  },
-  {
-    id: 7,
-    title: "Awesome Chair",
-    price: 80,
-    sale_price: 65,
-    is_sale: true,
-    ratting: 5,
-    rate_by_users: 1854,
-    image: "/shop/chair.png",
-  },
-
-  {
-    id: 7,
-    title: "Cisco Clock",
-    price: 30,
-    sale_price: 25,
-    is_sale: false,
-    ratting: 5,
-    rate_by_users: 1854,
-    image: "/shop/clock.png",
-  },
-  {
-    id: 7,
-    title: "Phillips Trimmer",
-    price: 30,
-    sale_price: 25,
-    is_sale: false,
-    ratting: 5,
-    rate_by_users: 1854,
-    image: "/shop/trimmer.png",
   },
 ];

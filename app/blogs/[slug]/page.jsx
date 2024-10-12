@@ -12,8 +12,8 @@ import Image from "next/image";
 
 const BlogDetails = ({params}) => {
 
-  const { id } = params;
-  const blog = blogsData.find((blog) => blog.id.toString() === id);
+  const { slug } = params;
+  const blog = blogsData.find((blog) => blog.slug.toString() === slug);
 
 
   return (

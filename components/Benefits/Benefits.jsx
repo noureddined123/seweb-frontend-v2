@@ -1,5 +1,3 @@
-import Button from "@/components/Button";
-import VideoButtonWrapper from "@/components/VideoButtonWrapper";
 import Image from "next/image";
 
 import { LuRocket } from "react-icons/lu";

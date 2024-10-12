@@ -3,10 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { GoSearch } from "react-icons/go";
 import MobileMenu from "./MobileMenu";
-import FlyoutLink, {
-  homeLinks,
-  pageLinks,
-} from "@/components/Dropdown/FlyoutLink";
 import useScroll from "@/hooks/useScroll";
 import { twMerge } from "tailwind-merge";
 import Search from "@/components/Search";

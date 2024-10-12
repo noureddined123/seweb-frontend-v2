@@ -27,7 +27,7 @@ const BlogCard = ({ blog }) => {
           </h3>
 
           <Link
-            href={`/blog/${blog.id}`}
+            href={`/blogs/${blog.slug}`}
             className="h-[60px] text-sm font-bold uppercase grid place-content-center px-12 rounded-2xl   hover:bg-transparent text-nowrap transition-all duration-500 bg-rose text-white w-fit group-hover:bg-black"
           >
             Read More

@@ -93,7 +93,7 @@ const Footer = () => {
             </h5>
             <div className="flex  flex-col gap-6">
               {blogsData.slice(0, 2).map((blog) => (
-                <Link key={blog.id} className="flex items-center gap-5" href={`/blog/${blog.id}`}>
+                <Link key={blog.id} className="flex items-center gap-5" href={`/blogs/${blog.slug}`}>
                   <Image
                     width={70}
                     height={70}
