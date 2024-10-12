@@ -8,7 +8,7 @@ export default function ContactForm() {
 
     const [message, setMessage] = useState('');
     const [error, setError] = useState('');
-    
+
     const [website, setWebsite] = useState('');
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
@@ -69,7 +69,6 @@ export default function ContactForm() {
             setError('Failed to send email.');
         }
     };
-
 
     return (
         <form
