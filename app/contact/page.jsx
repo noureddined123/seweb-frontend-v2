@@ -4,6 +4,7 @@ import PageHeader from "@/components/PageHeading/PageHeader";
 import Button from "@/components/Button";
 import Link from "next/link";
 import FAQ from "@/components/FAQ/FAQ";
+import ContactForm from "@/components/ContactForm/ContactForm";
 
 const ContactPage = () => {
   return (
@@ -57,51 +58,7 @@ const ContactPage = () => {
               </div>
             </div>
             <div>
-              <form className="bg-sky py-10 p-5  sm:p-10 md:p-16 xl:p-[75px] rounded-2xl">
-                <header className="mb-10">
-                  <h3
-                    data-aos="fade-up"
-                    className="text-dark mb-2 text-3xl sm:text-4xl font-bold font-space_grotesk"
-                  >
-                    Heeft u nog vragen?
-                  </h3>
-                  <p data-aos="fade-up" className="text-sm text-gray ">
-                    Uw e-mailadres wordt niet gepubliceerd. Verplichte velden zijn gemarkeerd met *
-                  </p>
-                </header>
-
-                <div className="flex flex-col gap-5">
-                  <div className="flex flex-col md:flex-row gap-5">
-                    <input
-                      required
-                      type="text"
-                      placeholder="Naam*"
-                      className="bg-white text-gray w-full focus-visible:outline-blue placeholder:text-gray rounded-2xl  py-5 px-8"
-                    />
-                    <input
-                      required
-                      type="email"
-                      placeholder="Email*"
-                      className="bg-white text-gray w-full focus-visible:outline-blue placeholder:text-gray rounded-2xl  py-5 px-8"
-                    />
-                  </div>
-                  <input
-                    required
-                    type="text"
-                    placeholder="Uw Website"
-                    className="bg-white text-gray w-full focus-visible:outline-blue placeholder:text-gray rounded-2xl  py-5 px-8"
-                  />
-                  <textarea
-                    required
-                    placeholder="Bericht*"
-                    className="bg-white text-gray w-full focus-visible:outline-blue h-36 placeholder:text-gray rounded-2xl  py-5 px-8"
-                  />
-                  <Button className="bg-rose text-white hover:border-rose hover:bg-transparent hover:text-rose">
-                    {" "}
-                    Verstuur Bericht
-                  </Button>
-                </div>
-              </form>
+              <ContactForm />
             </div>
 
           </div>
