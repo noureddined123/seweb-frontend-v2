@@ -1,0 +1,123 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+        space_grotesk: ["var(--font-space_grotesk)"],
+      },
+      colors: {
+        purple: "#120653",
+        "dark-purple": "#141733",
+        "light-purple": "#110450",
+        dark: "#03051a",
+        "dark-cafe": "#181818",
+        black: "#0f0f0f",
+        // black: "#04061b",
+        rose: "#ff3838",
+        blue: "#3e49f3",
+        sky: "#f5f5f8",
+
+        ash: "#999cbb",
+        olive: "#8f8f8f",
+
+        "light-gray": "#c9c4c4",
+
+        gray: "#8f8e9a",
+        "dim-gray": "#6a6a6a",
+        "dark-gray": "#767676",
+
+        "light-dark": "#1a1c34",
+      },
+      maxWidth: {
+        container: "1170px",
+      },
+      spacing: {
+        container: "0.938rem",
+        section: "120px",
+      },
+      fontSize: {
+        "8xl": ["90px", "90px"],
+      },
+      screens: {
+        sm: "640px",
+
+        md: "768px",
+
+        tab: "900px",
+
+        lg: "1100px",
+
+        xl: "1280px",
+
+        "2xl": "1536px",
+      },
+      backgroundImage: {
+        hero1: "url('/home1/hero/hero-bg-1.webp')",
+        "hero1-effect": "url('/home1/hero/bg-hero-effect-1.png')",
+        about: "url('/home1/about/bg-about.png')",
+        "about-2": "url('/home1/about/bg-about-2.png')",
+        project: "url('/home1/projects/bg-projects.png')",
+        project2: "url('/home4/projects/project-bg.png')",
+        "business-left": "url('/home1/business/business-bg-left.png')",
+        business: "url('/home1/business/bg-business.png')",
+        solution: "url('/home1/solution/bg-solution.png')",
+        "solution-effect": "url('/home1/solution/solution-effect.png')",
+        testimonials: "url('/home1/testimonials/bg-testimonials.png')",
+        "home2-about": "url('/home2/about/bg-about-left.png')",
+        "home2-about-2": "url('/home2/about/bg-about-right.png')",
+        achievement: "url('/home2/achievement/achievement.png')",
+        "solution-2": "url('/home2/solution/bg-solution.png')",
+        "test-card-1": "url('/home2/testimonials/test-card-1.png')",
+        "test-card-2": "url('/home2/testimonials/test-card-2.png')",
+        service: "url('/home2/service/service-bg.png')",
+        section: "url('/home2/blog/bg-section.png')",
+        cta: "url('/home2/cta/bg-cta.png')",
+        features: "url('/home3/features/features-bg.png')",
+        "business-2": "url('/home3/business/bg-business.png')",
+        "business-2-left": "url('/home3/business/business-left.png')",
+        "business-2-right": "url('/home3/business/business-right.png')",
+        "service-2": "url('/home3/services/services-bg.png')",
+        benefits: "url('/home3/benefits/bg-benefits.png')",
+        technology: "url('/home3/technology/technology-bg.png')",
+        "technology-effect": "url('/home3/technology/technology-effect.png')",
+        "technology-card": "url('/home3/technology/card.png')",
+        contact: "url('/home3/contact/bg-contact.png')",
+        "contact-effect": "url('/home3/contact/contact-effect.png')",
+        "service-4": "url('/home4/service/bg-service.png')",
+        "service-model": "url('/home4/service/model.png')",
+        "service-card": "url('/home4/service/card.png')",
+        "test4-card-1": "url('/home4/testimonials/test-card-1.png')",
+        "test4-card-2": "url('/home4/testimonials/test-card-2.png')",
+        "testimonials-4": "url('/home4/testimonials/testimonials-bg.png')",
+        glob: "url('/home4/testimonials/glob.png')",
+        "faq-bg": "url('/home4/faq/faq.png')",
+        "faq-text": "url('/home4/faq/faq-text.png')",
+        cta2: "url('/home4/cta/bg-cta.png')",
+        "cta-ellipse": "url('/home4/cta/cta.png')",
+        "home5-hero": "url('/home5/hero/hero.png')",
+        "features-card": "url('/home5/features/features-card.png')",
+        "service-5": "url('/home5/service/service-bg.png')",
+        "benefits-right": "url('/home5/benefits/benefits-bg-right.png')",
+        "benefits-left": "url('/home5/benefits/benefits-bg-left.png')",
+        pricing: "url('/home5/pricing/pricing-bg.png')",
+        "cta-3": "url('/home5/cta/cta.png')",
+        "cta-model": "url('/home5/cta/cta-model.png')",
+        "page-heading": "url('/others/heading-cover.webp')",
+        "service-details-card": "url('/services/service-bg-card.png')",
+        "service-details-effect": "url('/services/service-card-effect.png')",
+        "team-bg": "url('/team/goal.png')",
+      },
+      boxShadow: {
+        card: "0px 8px 44px 0px rgba(12, 12, 12, 0.06)",
+        "card-2": "0px 8px 29px 0px rgba(0, 0, 0, 0.05)",
+        "card-3": "0px 10px 26px 0px rgba(0, 0, 0, 0.09)",
+      },
+    },
+  },
+  plugins: [],
+};
